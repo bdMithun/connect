@@ -1,0 +1,356 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* container part start from here */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1440px;
+
+    }
+}
+
+/* container part end from here */
+
+/* header part start from here */
+.timesheet p {
+    border: 2px solid #615B9B;
+    padding: 7px 12px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.medical {
+    background: #1B1740;
+    color: white;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.medical p {
+    margin-right: 3px;
+}
+
+.keyword-btn {
+    background: white;
+    color: black;
+    padding: 7px 8px;
+    height: 85%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+}
+
+.form-section {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+
+}
+
+.search-button {
+    background: transparent;
+    color: white;
+    border: 1px solid #bdbdbd;
+    padding: 7px 8px;
+    height: 85%;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+#find-right {
+    padding: 35px 0;
+    height: 300px;
+    background-image: linear-gradient(to right, #50499B, #20185F)
+}
+
+#find-right h6 {
+    color: white;
+    font-size: 30px;
+    font-weight: inherit;
+}
+
+#find-right h6 span {
+
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+.image-div img {
+    width: 33%;
+
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+
+/* header part end from here */
+
+
+.overlay-icon img {
+    width: 100px;
+
+    background: red;
+    float: left;
+
+}
+
+.overlay-icon {
+    margin: 0 auto;
+
+}
+
+
+/* Latest Role part design start from here */
+
+.latest-roles {
+    background: #FFFFFF;
+    color: #4F5B60;
+    padding: 12px;
+    margin-right: 17px !important;
+    width: 454px;
+    margin-bottom: 20px;
+    float: left;
+    box-shadow: 0px 0px 20px -9px;
+    border-radius: 8px;
+}
+
+#latest-roles-section {
+    background: #F5F4FC;
+    margin-top: 20px;
+}
+
+.latest-roles h2 {
+    color: #615B9B;
+}
+
+.banner-consulting {
+    padding: 15px;
+    height: 350px;
+}
+
+/* Latest Role part design start from here */
+
+/* poject design start from here */
+
+.poject img {
+    width: 100%;
+}
+
+
+
+
+.banner-part {
+    width: 80%;
+    margin: 20px;
+}
+
+.banner-consulting:first-child p {
+    width: 52%;
+
+
+}
+
+.banner-consulting:nth-child(2) p {
+    width: 65%;
+
+
+}
+
+.banner-consulting:nth-child(3) p {
+    width: 65%;
+
+}
+
+.bnc-1 {
+    background: #73ba9d !important;
+
+}
+
+.bnc-2 {
+    background: #6baac1 !important;
+
+}
+
+.bnc-3 {
+    background: #6b83c1 !important;
+
+}
+
+.bn-btn-1 {
+    border: 2px solid white;
+    color: white;
+    font-weight: 500;
+
+}
+
+.bn-btn-2 {
+    background: white;
+    color: #615b9b;
+    font-weight: 500;
+}
+
+.bn-btn-3 {
+    border: 2px solid white;
+    color: white;
+    font-weight: 500;
+
+}
+
+/* poject design end from here *
+
+
+/* connect group start from here */
+
+#connect-group {
+    background-image: url(image/Screenshot_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    padding: 48px 15px;
+    height: 600px;
+    position: relative;
+    margin-bottom: 40px;
+
+
+
+}
+
+.connect-text {
+    background: #615b9b;
+    color: white;
+    height: 92%;
+    position: absolute;
+    padding: 40px 70px;
+}
+
+.connect-text h3 {
+
+    font-size: 35px;
+    font-weight: inherit;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+/* connect group end from here */
+
+/* refer design start from here */
+
+#refer img {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 40px;
+
+}
+
+.refer {
+    width: 80%;
+}
+
+#refer {
+    padding: 0 10%;
+    margin-bottom: 40px;
+}
+
+.refer-btn {
+    border: 2px solid #615b9b;
+    border-radius: 4px;
+    color: #615b9b;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.refer h3 {
+    color: #1b1740;
+    font-size: 30px;
+
+}
+
+.refer p {
+    color: #4e5a60;
+}
+
+.engneering-location h3 {
+
+    font-size: 22px;
+    color: #756fac;
+}
+
+/* refer design start from here */
+
+/* footer part design start from here */
+#footer-section {
+
+    background: #100c29;
+    padding: 50px;
+    color: white;
+}
+
+.footer-logo img {
+    width: 50%;
+}
+
+#footer-section h5 {
+    color: #756fac;
+}
+
+.copyright span {
+    color: #756fac;
+    text-decoration: underline;
+}
+
+.footer-icon i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* footer part design start from here */
